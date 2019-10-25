@@ -1,11 +1,12 @@
 .header {
   height: 90px;
-  border-bottom:30px solid aquamarine;
+  border-bottom:30px solid rgb(87, 178, 214);
   background-color: skyblue;
   color: grey;
+  font-family: 'Permanent Marker', cursive;
   &__logo {
     text-align: center;
-    font-size: 36px;
+    font-size: 50px;
     line-height: 90px;
   }
   &__logout {
@@ -24,25 +25,15 @@
   
   &__message {
     width: 100%;
-    font-size: 30px;
+    font-size: 20px;
     color: black;
-    padding: 0 150px;
+    padding: 0 130px;
     word-spacing: 50px;
-  }
-
-  .search_item {
-    display: inline-block;
-    padding: 3px;
-    cursor: pointer;
-  }
-  .search_item.is-active {
-    color: white;
-    background-color: orange;
-  }
-  .is-hide {
-    display: none;
-  }
-  overflow: scroll;
+    font-family: 'Kosugi Maru', sans-serif;
+    line-height: 30px;
+    text-align: center;
+  } 
+  // overflow: scroll;
 }
 .footer {
   height: 100px;

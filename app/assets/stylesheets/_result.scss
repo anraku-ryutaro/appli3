@@ -1,0 +1,18 @@
+.search_item {
+  display: inline-block;
+  padding: 3px;
+  cursor: pointer;
+  border-style: double;
+}
+
+.search_item.is-active {
+  color: white;
+  background-color: orange;
+}
+.is-hide {
+  display: none;
+}
+.list {
+    padding: 40px;
+    letter-spacing: 30px;
+}
