@@ -2,7 +2,6 @@ html {
   height: 100%;
   background-color: #f8f8f8;
 }
-
 body {
   overflow: hidden;
   height: 100%;
@@ -11,15 +10,10 @@ body {
   font-family: 'Roboto', sans-serif;
   color: #555555;
 }
-
 a {
   text-decoration: none;
   color: inherit;
-
 }
-
-
-
 $menu_WIDTH: 150px;
 
 .menu {
@@ -33,7 +27,7 @@ $menu_WIDTH: 150px;
   width: $menu_WIDTH;
   height: 40px;
   padding: 12px 0 0;
-  background: #9dc852;
+  background: #9966FF;
   text-align: center;
   color: #ffffff;
   font-weight: bold;
@@ -45,7 +39,7 @@ $menu_WIDTH: 150px;
   content: "";
   display: block;
   height: 0;
-  border-top: 5px solid #9dc852;
+  border-top: 5px solid #9966FF;
   border-left: ($menu_WIDTH / 2) solid transparent;
   border-right: ($menu_WIDTH / 2) solid transparent;
   border-bottom: 0 solid #dddddd;
@@ -193,10 +187,6 @@ $menu_WIDTH: 150px;
     0.3s color,
     0.6s visibility;
   z-index: 99;
-}
-
-.hList {
-  // overflow: hidden;
 }
 
 .hList > * {
